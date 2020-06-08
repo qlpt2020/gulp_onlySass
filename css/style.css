@@ -1,3 +1,25 @@
 * {
   margin: 0;
+  padding: 0;
+}
+
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: blue;
+}
+
+.header {
+  background-color: khaki;
+  width: 100%;
+  min-width: 1000px;
+}
+
+.header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
